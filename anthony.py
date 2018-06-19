@@ -1,4 +1,13 @@
-x_list = ['a', 'b', 'c']
-x_list_len = len(x_list)
-x_list_string_template = 'This is my list length {}'
-print (x_list_string_template.format(x_list_len))
+dataset = [
+	('John', 'Doe', 53.63),
+	('Bob', 'James', 43.66),
+	('Bob', 'James', 43.66),
+	('Bob', 'James', 43.66),
+	('Bob', 'James', 43.66)
+]
+
+msg_tmpl = 'Hello {} {}. Your current balance is ${}.'
+
+for brown_bear in dataset:
+	msg = msg_tmpl.format(*brown_bear)
+	print (msg)
