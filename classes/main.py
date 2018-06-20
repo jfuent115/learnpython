@@ -1,6 +1,6 @@
 class Printer:
 	def __init__(self, name):
-		self.name = name
+		self.name = name4
 
 	def print_add(self, num):
 		tmpl = 'My answer is {} and my name is {}'
