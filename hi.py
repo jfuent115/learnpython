@@ -1,7 +1,7 @@
 class Numbers:
 	def __init__(self):
 		pass
-
+		
 	def even_stop_numbers(self,dataset,stop):
 		answers = []
 		for data in dataset:
@@ -20,7 +20,9 @@ if __name__ == '__main__':
 	815, 67, 104, 58, 512, 24, 892, 894, 767, 553, 81, 379, 843, 831, 445, 742, 717,
 	958, 609, 842, 451, 688, 753, 854, 685, 93, 857, 440, 380, 126, 721, 328, 753, 470,
 	743, 527 ]  
-	   
+
 	eagle = 237
 	num = Numbers()
-	print (num.even_stop_numbers(brownbear, eagle))	
+	print (num.even_stop_numbers(brownbear, eagle))
+
+   
